@@ -30,7 +30,7 @@ jobs:
       - name: Build and push Docker image
         run: |
             docker-compose build 
-            docker tag sad-02-2022-project-v5_frontend:latest pranavjayanayak/2souls:latest
-            docker push pranavjayanayak/2souls:latest
+            docker tag Two_Souls_Dating_App_frontend:latest amadougueye/two_souls:latest
+            docker push amadougueye/two_souls:latest
         working-directory: ${{env.client}}
         
