@@ -1,0 +1,22 @@
+.container{
+    display:flex;
+}
+.sidenav{
+    width:27%;
+    min-height:100vh;
+    border-right:1px solid #80808014;
+}
+.HomeMain{
+    flex:1;
+}
+.suggestion {
+    width: 73%;
+    align-items: center;
+    
+}
+
+.logout {
+    height: fit-content;
+    width: fit-content;
+    
+}

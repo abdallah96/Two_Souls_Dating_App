@@ -1,0 +1,14 @@
+.container{
+    display:flex;
+}
+.sidenav{
+    width:400px;
+    min-height:100vh;
+    border-right:1px solid #80808014;
+}
+.HomeMain{
+    flex:1;
+}
+.image{
+    width:200px;
+}

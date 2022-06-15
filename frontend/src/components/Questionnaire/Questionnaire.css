@@ -1,0 +1,96 @@
+.Questionnaire {
+    border-top: solid 1px rgb(213, 213, 213);
+    ;
+}
+h2{
+    text-align: center;
+}
+.bio{
+    text-align: center;
+}
+
+.Questionnaire form {
+    display: flex;
+    justify-content: center;
+}
+
+.Questionnaire form section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 35%;
+    text-align: start;
+}
+.questionnaire-form{
+    flex-direction: row;
+}
+
+.Questionnaire form input {
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 15px;
+    border: solid 2px rgb(219, 219, 219);
+    border-radius: 10px;
+}
+
+
+.Questionnaire form label {
+    margin: 10px 0;
+}
+
+.Questionnaire form .multiple-input-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.Questionnaire form input::-webkit-outer-spin-button,
+.Questionnaire form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Questionnaire form .multiple-input-container input {
+    margin-right: 10px;
+}
+
+.Questionnaire form .multiple-input-container label {
+    padding: 10px;
+    border: solid 2px rgb(144, 144, 144);
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+.Questionnaire form input[type=radio] {
+    display: none;
+}
+.Questionnaire form input[type=checkbox] {
+    display: none;
+}
+
+.Questionnaire form input[type=number] {
+    width: 10%;
+}
+
+
+.Questionnaire form input[type=radio]:checked + label {
+    border: solid 2px rgb(221, 39, 22);
+}
+.Questionnaire form input[type=checkbox]:checked + label {
+    border: solid 2px rgb(221, 39, 22);
+}
+
+.Questionnaire form input[type=submit]:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.Questionnaire form input[type=submit]:active {
+    background-color: rgb(226, 115, 115);
+}
+
+.Questionnaire form .photo-container img {
+    width: 100%
+}
+.details-btn{
+
+}

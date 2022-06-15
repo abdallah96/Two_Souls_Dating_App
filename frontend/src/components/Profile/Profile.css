@@ -1,0 +1,167 @@
+.Profile {
+    background: white;
+    border-radius: 10px;
+    /* box-shadow: 0px 1px 10px 1px black; */
+    overflow: hidden;
+    margin-top: 10px;
+    /* position: relative; */
+}
+
+.upper-container-profile {
+    height: 70px;
+    background-color: #75abbc;
+}
+
+.image-container-profile img {}
+
+.lower-container-profile {
+    margin-top: 60px;
+    height: 100%;
+    background: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sideNavAvatar {
+    cursor: pointer!important;
+}
+
+.profile-button {
+    margin: 1rem;
+    margin-top: 0;
+    color: #2f2d2e;
+    font: bold;
+    background-color: white;
+    border: 2px solid #8e00b9;
+    padding: 0.6rem;
+    transition-duration: 0.5s;
+    animation: ease-in-out;
+}
+
+.profile-button:hover {
+    background-image: linear-gradient(to left, #2d00f7, #ff0291);
+    transform: scale(1.2);
+    border: none;
+    color: white;
+}
+
+.Profile form {
+    display: flex;
+    justify-content: center;
+}
+
+.Profile form section {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    /* width: 44%; */
+    text-align: start;
+}
+
+.Profile form input {
+    padding: 5px 3px;
+    margin: 1px 0;
+    border: solid 2px rgb(219, 219, 219);
+    border-radius: 10px;
+    /* width: fit-content; */
+}
+
+.Profile form input::-webkit-outer-spin-button,
+.Profile form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Profile form label {
+    margin: 8px 0;
+}
+
+.Profile form .multiple-input-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.Profile form .multiple-input-container input {
+    margin-right: 10px;
+}
+
+.Profile form .multiple-input-container input {
+    margin-right: 10px;
+}
+
+.Profile form .multiple-input-container label {
+    padding: 10px;
+    border: solid 2px rgb(144, 144, 144);
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+.Profile form input[type="radio"] {
+    display: none;
+}
+
+.Profile form input[type="checkbox"] {
+    display: none;
+}
+
+.Profile form input[type="number"] {
+    width: 100%;
+}
+
+.Profile form input[type="radio"]:checked+label {
+    border: solid 2px rgb(221, 39, 22);
+}
+
+.Profile form input[type="checkbox"]:checked+label {
+    border: solid 2px rgb(221, 39, 22);
+}
+
+.Profile form input[type="submit"]:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.Profile form input[type="submit"]:active {
+    background-color: rgb(226, 115, 155);
+}
+
+.Profile form input[type="submit"] {
+    margin-top: 20px;
+}
+
+.Profile form input[type="file"] {
+    border: none;
+}
+
+.Profile form input[type="submit"] .location {
+    width: 20%;
+}
+
+.avatarProfileEdit{
+    vertical-align: middle;
+  width: 100px!important;
+  height: 100px!important;
+  border-radius: 50%;
+    float: unset;
+    object-fit: cover!important;
+    margin-left: 37%;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 50%);;
+}
+
+.profileDelete {
+    padding: 5px 3px;
+    font-size: 1.1rem;
+    margin: 1px 0;
+    cursor: pointer;
+    border: solid 2px rgb(219, 219, 219);
+    border-radius: 10px;
+}
+
+.profileLogOut {
+    padding: 5px 3px;
+    font-size: 1.1rem;
+    margin: 1px 0;
+    cursor: pointer;
+    border: solid 2px rgb(219, 219, 219);
+    border-radius: 10px;
+}

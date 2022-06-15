@@ -1,0 +1,13 @@
+.tag {
+    padding: 5px 5px;
+    padding-bottom: 8px;
+    margin: 1px 0;
+    border: solid 2px rgb(219, 219, 219);
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

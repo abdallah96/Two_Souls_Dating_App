@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #f0f2f4;
+}
+
+
+
+.Suggestions {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.profilephoto {
+    width: 330px;
+    height: 330px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    margin-top: 30px;
+    
+}
+
+.card {
+    background-color: #75abbc;
+    
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 590px;
+    margin-left: 50px;
+    
+ 
+    
+}
+
+.lastcard {
+    
+    background-image:     linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ), url("./end2.jpg") ;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 3rem 2rem;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 590px;
+    margin-left: 50px;
+    align-items: center;
+    
+ 
+    
+}
+
+.buttonstonav {
+
+    margin-top: 340px;
+}
+
+.card span {
+
+    line-height: 150%;
+    
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.names h3 {
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 2px;
+  
+}
+
+.distance {
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 0px!important;
+    padding-top: 5px!important;
+  
+}
+
+.names h4 {
+    font-size: 25px;
+    font-weight: 400;
+   
+    padding-top: 3px;
+}
+
+ .names h5 {
+    font-size: 20px;
+    font-weight: 300;
+   
+    padding-top: 5px;
+}
+.icon_loc {
+
+    margin-top: 6px!important;
+  
+}
+
+.names h1 {
+  font-weight: 500
+}
+
+
+.expand {
+    width: 35rem;
+    justify-content: center;
+    text-align: left;
+    word-wrap    : break-word;
+overflow-wrap: break-word;
+overflow-y: scroll;
+padding-left: 30px;
+padding-bottom: 30px;
+padding-top: 24px;
+height: 480px;
+
+
+}
+.expand::-webkit-scrollbar {
+    display: none;
+}
+.expand h3 {
+    font-size: 25px;
+    font-weight: 400;
+    
+   
+}
+
+.expand h5 {
+    font-size: 20px;
+    font-weight: 300; 
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+
+.button {
+    position: absolute;
+    margin-top: 580px;
+    margin-right: 180px;
+  
+  height: 80px;
+  width: 80px;  
+  
+  border-radius: 50%;
+ 
+  color: white;
+    align-items: center;
+  cursor: pointer;
+  border-style: hidden;
+  
+ 
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+  
+
+}
+
+
+.button:hover {
+    position: absolute;
+    margin-top: 580px;
+    margin-right: 180px;
+  
+  height: 100px;
+  width: 100px;  
+  
+  border-radius: 50%;
+ 
+  color: white;
+    align-items: center;
+  cursor: pointer;
+  border-style: hidden;
+  
+ 
+  box-shadow: 0px 10px 30px rgba(0, 0, 5, .5);
+  
+
+}
+
+.button2 {
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 290px;
+  
+  height: 80px;
+  width: 80px;  
+  
+  border-radius: 50%;
+  
+  color: white;
+    align-items: center;
+  cursor: pointer;
+  border-style: hidden;
+ 
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+
+  
+}
+
+.button2:hover {
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 290px;
+  
+  height: 100px;
+  width: 100px;  
+  
+  border-radius: 50%;
+ 
+  color: white;
+    align-items: center;
+  cursor: pointer;
+  border-style: hidden;
+  
+ 
+  box-shadow: 0px 10px 30px rgba(0, 0, 5, .5);
+  
+
+}
+
+
+.button3 {
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 55px;
+  
+  height: 80px;
+  width: 80px;  
+  
+  border-radius: 50%;
+  
+  color: white;
+    align-items: center;
+  cursor: pointer;
+  border-style: hidden;
+ 
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+
+  
+}
+
+
+
+.button3:hover {
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 55px;
+  
+  height: 100px;
+  width: 100px;  
+  
+  border-radius: 50%;
+ 
+  color: white;
+    align-items: center;
+  cursor: pointer;
+  border-style: hidden;
+  
+ 
+  box-shadow: 0px 10px 30px rgba(0, 0, 5, .5);
+  
+
+}
+
+.icons {
+    width: 50%;
+    height: 50%;
+    
+    
+   }
+
+   
+
+   .icons2 {
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+    
+    
+   }
+
+   .icons3 {
+    width: 70%;
+    height: 70%;
+    margin-top: 7px;
+    
+    
+   }
+
+   .details {
+       display:flex ;
+       
+       flex-wrap: wrap;
+       flex-direction: row ;
+       margin: 7px 0;
+       gap: 10px;
+       margin-right: 7px;
+       overflow: none;
+   }
+
+   .animation_like {
+       position: absolute;
+      height: 80px;
+      margin-left: 28px;
+      margin-top: -55px;
+      
+
+      transform: rotateZ(-35deg);
+     
+   }
+
+   .lastcard {
+       display: none;
+   }
+
+  

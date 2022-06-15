@@ -1,0 +1,139 @@
+.sideNavContainer{
+    text-align:initial;
+    box-shadow: 2px 0px 1px 1px #dedede;
+}
+.sideNavTop{
+    display:flex;
+    flex:1;
+    border-bottom:1 px solid divider;
+    background-color: #75abbc;
+    justify-content:space-between;
+}   
+.sideNavUserName{
+    color:white;
+    padding:5px 0px 0px 10px;
+    font-size:16px;
+    flex:1;
+}
+.sidenavExplore{
+    color:white;
+    cursor:pointer;
+}
+.sidenavExplore:hover{
+    color:#69f5ff;
+}
+.sidenavChat{
+    color:white;
+    margin: 7px;
+    cursor:pointer;
+}
+.sidenavChat:hover{
+    color:#69f5ff;
+}
+.sideNavAvatar{
+    cursor:pointer!important;
+}
+.sideNavWelcomeText{
+    font-weight:bold;
+    padding:5px 5px 0px 5px;
+}
+.sideNavEventsList{
+    padding:5px;
+}
+.sideNavEvent{
+    position: relative;
+    border-radius:20px;
+    margin-top:10px;
+    cursor: default;
+    background-color:black;
+}
+.sideNavEvent::before {    
+    content: "";
+    background-image:url("../../../public/images/coffee.gif");
+    background-size: cover;
+    position: absolute;
+    border-radius:20px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+.sideNavHome{
+    position: relative;
+    border-radius:20px;
+    margin-top:10px;
+    cursor: default;
+    background-color:black;
+}
+
+.sideNavHome::before { 
+    content: "";
+    background-image:url("../../../public/images/date1.gif");
+    background-size: cover;
+    position: absolute;
+    border-radius:20px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+.sideNavEventBlind{
+    position: relative;
+    border-radius:20px;
+    cursor: default;
+    margin-top:10px;
+    background-color:black;
+}
+.sideNavEventBlind::before {    
+    content: "";
+    background-image:url("../../../public/images/blind.gif");
+    background-size: cover;
+    position: absolute;
+    border-radius:20px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+.sideNavEventFooter{
+    display:flex;
+    padding:20px 5px;
+    position: relative;
+    color:white;
+    justify-content:space-between;
+}
+.sideNavEventHeader{
+    font-size:18px;
+    color:white;
+    position: relative;
+    font-weight:bold;
+    padding:100px 5px 0px 5px;
+}
+.sideNavEventJoinButton{
+    border-color:transparent!important;
+    background-color:white!important;
+    color:black!important;
+    width:100px;
+    border-radius:20px!important;
+}
+.sideNavHeaderButtons{
+    background-color:transparent;
+    border:none;
+    margin:0 0 0 195px!important;
+    padding:0px!important;
+    min-width: 55px!important;
+}
+.sideNavHeaderButtons2{
+    background-color:transparent;
+    border:none;
+    min-width: 55px!important;
+    padding-left:0px!important;
+    padding:0px!important;
+}
+.Tabs{
+    width: -webkit-fill-available;
+}

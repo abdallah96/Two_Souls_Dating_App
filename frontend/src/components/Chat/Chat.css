@@ -1,0 +1,183 @@
+.chatContainer{
+    display: flex !important;
+    margin-top: 10px!important;
+    flex-direction: column!important;
+    flex: 0.30!important;
+    overflow: inherit;
+    position: relative!important;
+    height: 100vh;
+
+}
+
+.chatcontainer_body{
+    display: flex!important;
+    background-color: whitesmoke!important;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75)!important;
+    position: absolute;
+    height:90vh;
+    z-index:10;
+    width:160vh;
+    }
+
+    .chat_details{
+        display: flex!important;
+        flex-direction: column!important;
+        flex:1!important;
+    }
+    
+    .chatdetails_header{
+        padding: 15px!important;
+        display: flex!important;
+        align-items: center!important;
+        border-bottom: 1px solid lightgray!important;
+    }
+    
+    .chatdetails_headerInfo{
+        padding-top: 7px;
+        flex: 1!important;
+        padding-left:20px!important;
+    }
+    
+    .chatdetails_headerInfo > h3{
+        font-weight: 500!important;
+    }
+    
+    .chatdetails_headerInfo > p{
+        color: gray!important;
+    }
+    
+    .chatdetails_body{
+        flex: 1!important;
+        padding: 15px!important;
+        overflow-y: scroll!important;
+    }
+    
+    .chatheader_timestamp{
+        display: flex!important;
+        font-size: smaller!important;
+    }
+    
+    .chatmessage{
+        position: relative!important;
+        font-size: 16px!important;
+        padding: 10px!important;
+        width: fit-content!important;
+        border-radius: 10px!important;
+        background-color: lightgray!important;
+        margin-bottom: 30px!important;
+        word-break: break-all;
+    }
+    
+    
+    .chat_received{
+        word-break: break-all;
+        margin-left: auto!important;
+        background-color: #dcf8c6 !important;
+    }
+    
+    .chatdetails_footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 62px;
+        border-top: 1px solid lightgray;
+        padding: 10px;
+    }
+    
+    .chatdetails_footer > form {
+        flex: 1;
+        display:  flex;
+    }
+    
+    .chatdetails_footer > form > input {
+        flex: 1;
+        border-radius: 30px;
+        padding:  6px;
+        border: none;
+    }
+    
+    .chatdetails_footer > form > button {
+        display: none;
+        flex: 1;
+    }
+    
+    .chatdetails_footer > .MuiSvgIcon-root{
+        padding: 1px;
+        color: gray;
+    }
+    
+    .sendbutton{
+        display: flex;
+        color: gray;
+    }
+    
+     
+    .Chatlist_searchbar{
+        display: flex;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        height: 40px;
+        padding: 10px;
+        width: 450px;
+    }
+    
+    .chatlist_searchbarcontainer{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        height: 35px;
+        border-radius: 20px;
+    }
+    
+    .chatlist_searchbarcontainer > .MuiSvgIcon-root {
+        color: gray;
+    }
+    .chat_list{
+        overflow-y:scroll;
+        width:53vh;
+    }
+    .chatlist_searchbarcontainer > input {
+        border: none;
+        outline-width: 0;
+        margin-left: 10px;
+    }
+    
+
+    .sidebarchat_info > h2 {
+        font-size: 16px!important;
+        margin-bottom: 8px!important;
+    }
+    
+    .sidebarchat_info{
+        margin-left: 15px!important;
+        display: flex;
+        
+    }
+
+    .sidebarchat_name{
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+
+    .sidebarchat_container{
+        display: flex!important;
+        padding: 20px!important;
+        cursor: pointer!important;
+        border-bottom: 1px solid #75abbc57!important;;
+    }
+
+    .sidebarchat_innercontainer{
+        display: flex!important;
+        padding: 20px!important;
+        cursor: pointer!important;
+        border-bottom: 1px solid white!important;
+    }
+    
+    
+    .sidebarchat_container:hover{
+        background-color: rgb(238, 236, 236)!important;
+    }
+
+    
+    
